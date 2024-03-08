@@ -34,7 +34,6 @@ produto.append("mackbook")
 
 #retirar um item
 produto.remove("mackbook")
-preco.pop(-1)
 print(preco)
 
 #inserir um valor
@@ -44,6 +43,4 @@ print(produto)
 # contar valores
 print(produto.count("airpod"))
 
-# ordenar
-preco.sort(reverse = True)
-print(preco)
+# ordenark
