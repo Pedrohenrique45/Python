@@ -7,3 +7,5 @@ arquivos = os.listdir()
 print(arquivos)
 
 os.rename() # movimentar arquivos
+
+
