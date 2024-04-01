@@ -26,7 +26,29 @@ lista.insert(3, "pedro")
 print(lista)
 
 #adiciona  e remover item na lista
-
 lista.append(6)
-lista.remove(5)
+
+lista.remove(5) #remover item especificado
+lista.pop(1)#remover item pelo indice / pilha
+del lista[2]#também remove item especificado e sem o colchetes podem apagar toda a lista
+# lista.clear() limpa a lista
 print(lista)
+
+
+lista_1 = [9,9,2,2,4,5]
+for i in lista_1:
+    print(i)
+
+for i in range(len(lista_1)):
+    print(lista[i])
+
+
+# compreensão de lista
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+newlist = [x for x in fruits if "a" in x]
+
+print(newlist)
+
+# novalista = [expressão for item in interable if condição==True]
