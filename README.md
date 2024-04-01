@@ -1,2 +1,2 @@
 <h1>Meus estudos básicos em python: </h1>
-<p>Desolvi em curso de python</p>
+<p> Para o meu aperfeiçoamento na liguagem</p>

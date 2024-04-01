@@ -52,3 +52,12 @@ newlist = [x for x in fruits if "a" in x]
 print(newlist)
 
 # novalista = [expressão for item in interable if condição==True]
+
+#Classificar Alfanumericamente
+lista.sort()
+
+#Classificar em ordem decrescente
+lista.sort(reverse=True)
+
+#Classificar em ordem revesar
+lista.reverse()
