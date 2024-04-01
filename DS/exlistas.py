@@ -61,3 +61,10 @@ lista.sort(reverse=True)
 
 #Classificar em ordem revesar
 lista.reverse()
+
+#Adicionar duas listas
+lista_1 = ["a", "b" , "c"]
+lista_2 = [1, 2, 3]
+
+lista_1.extend(lista_2)
+print(lista_1)
