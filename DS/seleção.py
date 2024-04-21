@@ -1,5 +1,4 @@
 #Ordernar um lista, buscando os menores valores e ordernar eles
-
 def buscarMenor(arr):
     menor = arr[0]
     menor_indice = 0
